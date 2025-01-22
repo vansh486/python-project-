@@ -1,6 +1,6 @@
-def sum_two(a,b):
+def sum_two(num1,num2):
     return a+b
-a=int(input("Enter a first number:"))
-b=int(input("Enter the second number:"))
-result=sum_two(a,b)
+num1=int(input("Enter a first number:"))
+num2=int(input("Enter the second number:"))
+result=sum_two(num1,num2)
 print(result)
